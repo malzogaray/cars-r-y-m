@@ -1,0 +1,39 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #333; /* Fondo oscuro para el pie de página */
+    color: white; /* Texto en color blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centra el contenido */
+    position: relative; /* Posición relativa para que no interfiera con el contenido principal */
+    bottom: 0; /* Asegura que el footer se quede al final de la página */
+    width: 100%; /* Ocupa todo el ancho de la página */
+  }
+  
+  .footer p {
+    margin: 0; /* Elimina el margen por defecto */
+  }
+  
+  .footer a {
+    color: #fff; /* Enlaces en blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el cursor */
+  }
+  
+  .footer .social-icons {
+    margin-top: 10px; /* Espaciado entre el texto y los iconos */
+  }
+  
+  .footer .social-icons i {
+    margin: 0 10px; /* Espaciado entre los iconos */
+    font-size: 20px; /* Tamaño de los iconos */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los iconos */
+  }
+  
+  .footer .social-icons i:hover {
+    color: #28a745; /* Color de los iconos al hacer hover */
+  }
+  
